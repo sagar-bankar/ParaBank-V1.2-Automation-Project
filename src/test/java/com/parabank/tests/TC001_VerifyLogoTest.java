@@ -19,7 +19,7 @@ public class TC001_VerifyLogoTest extends BaseClass {
         
         boolean isLogoDisplayed = homePage.isDisplayed();
         ExtentReportManager.getTest().info("Logo display status on homepage: " + isLogoDisplayed);
-        logger.info("Logo status retrieved: " + isLogoDisplayed);
+        logger.info("Logo status retrieved:" + isLogoDisplayed);
 
         Assert.assertTrue(isLogoDisplayed, "Logo should be displayed on the homepage.");
 
