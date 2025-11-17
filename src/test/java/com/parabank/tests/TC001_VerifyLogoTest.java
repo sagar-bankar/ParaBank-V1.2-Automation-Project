@@ -10,7 +10,7 @@ public class TC001_VerifyLogoTest extends BaseClass {
     
     @Test(groups = {"sanity", "master"})
     public void verifyLogoIsDisplayed() {
-        ExtentReportManager.getTest().info("Test Case:Verify Logo Display - Started");
+        ExtentReportManager.getTest().info("Test Case: Verify Logo Display - Started");
 
         HomePage homePage = new HomePage(driver);
         ExtentReportManager.getTest().info("Navigated to ParaBank home page");
